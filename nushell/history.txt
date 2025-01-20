@@ -1,0 +1,59 @@
+ls
+sl
+ls
+git 
+cd
+ls
+cd projects/
+vi
+nv
+nvim
+tree
+codecctl 
+codesandbox 
+ls | where size > 10mb | sort-by modified
+ls
+sl
+ls
+ls | where size > 10mb | sort-by modified
+ls | where size > 10b | sort-by type
+|<\n>
+s
+aa,
+'<\n>'
+$env.config.buffer_editor = 'nvim'
+config nu
+ls | where size > 10b | sort-by type
+config
+config ls
+ls
+ls -h
+git -h
+def greet [name] {$"Hello, ($name)!"}
+def greet [name] $"Hello, ($name)!"
+let greet = {[name] $"Hello, ($name)!"}
+let greet = {|name| $"Hello, ($name)!"}
+greet hi
+hihi
+config nu
+exit
+ls
+brew install starship<\n>
+config nu
+exit
+starship -h
+nvim ~/.config/starship.toml
+starship 
+nvim ~/.config/starship.toml
+config nu
+vi ~/.config/nushell/
+exit
+config nu
+$env.config.buffer_editor = 'nvim'
+config nu
+exit
+# Locate and delete the starship binary<\n>sh -c 'rm "$(command -v 'starship')"'<\n>
+exit
+ls
+exut
+exit
