@@ -1,0 +1,114 @@
+import = ["/Users/chaitanyasharma/.config/dracula.toml"]
+working_directory = "/Users/chaitanyasharma/projects"
+
+# [Cursor]
+# blinking = "On"
+# hide_cursor_when_typing = true
+# shape = "Beam"
+
+# [Selection]
+# save_to_clipboard = true
+# semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[bell]
+animation = "EaseOutExpo"
+color = "#ffffff"
+duration = 150
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "MesloLGS NF"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "Paste"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "Copy"
+
+[[keyboard.bindings]]
+action = "ClearLogNotice"
+key = "L"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "ScrollPageUp"
+key = "PageUp"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollPageDown"
+key = "PageDown"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollToTop"
+key = "Home"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollToBottom"
+key = "End"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Plus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "NumpadAdd"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "NumpadSubtract"
+mods = "Control"
+
+[mouse]
+hide_when_typing = false
+
+[shell]
+program = "/opt/homebrew/bin/tmux"
+
+[window]
+decorations = "full"
+dynamic_padding = false
+dynamic_title = true
+opacity = 1.0
+startup_mode = "Fullscreen"
+title = "Terminal - Alacritty"
+
+[window.padding]
+x = 5
+y = 12
